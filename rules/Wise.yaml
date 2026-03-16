@@ -1,36 +1,17 @@
 # Wise 完整域名规则集
-# 自动生成于: 2026-03-16 05:07 UTC
+# 自动生成于: 2026-03-16 07:12 UTC
 # 数据源: Certificate Transparency (crt.sh)
-# 域名数量: 31
+# 域名数量: 12
 payload:
-  - DOMAIN-SUFFIX,bank--wise.com
   - DOMAIN-SUFFIX,dev-wi.se
   - DOMAIN-SUFFIX,fightoverseasfees.org
-  - DOMAIN-SUFFIX,grow--wise.com
   - DOMAIN-SUFFIX,transferwise.com
   - DOMAIN-SUFFIX,transferwise.tech
   - DOMAIN-SUFFIX,trwi.se
   - DOMAIN-SUFFIX,tw-brazil-sykes.com
   - DOMAIN-SUFFIX,tw-india.com
-  - DOMAIN-SUFFIX,tw-nav.com
-  - DOMAIN-SUFFIX,tw-slv-telus.com
-  - DOMAIN-SUFFIX,tw-taiwan-oa.com
   - DOMAIN-SUFFIX,tw.ee
-  - DOMAIN-SUFFIX,wise-apac-partner.com
-  - DOMAIN-SUFFIX,wise-bgr-alorica.com
-  - DOMAIN-SUFFIX,wise-cognizant.com
-  - DOMAIN-SUFFIX,wise-emea-partner.com
-  - DOMAIN-SUFFIX,wise-esp-wewow.com
-  - DOMAIN-SUFFIX,wise-kpmg.com
-  - DOMAIN-SUFFIX,wise-phl-oa.com
-  - DOMAIN-SUFFIX,wise-sa-alorica.com
   - DOMAIN-SUFFIX,wise-sandbox.com
-  - DOMAIN-SUFFIX,wise-sgp-dj.com
-  - DOMAIN-SUFFIX,wise-taskus-col.com
-  - DOMAIN-SUFFIX,wise-taskus-mx.com
   - DOMAIN-SUFFIX,wise.com
   - DOMAIN-SUFFIX,wise.ee
-  - DOMAIN-SUFFIX,wise.tech
   - DOMAIN-SUFFIX,wiseconnect.io
-  - DOMAIN-SUFFIX,wisers.work
-  - DOMAIN-SUFFIX,wwww--wise.com
