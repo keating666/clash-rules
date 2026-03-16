@@ -1,0 +1,39 @@
+name: Update Wise Rules
+
+on:
+  schedule:
+    # 每天 UTC 06:00 运行（北京时间 14:00）
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get install -y jq dnsutils curl
+
+      - name: Run update script
+        run: |
+          chmod +x scripts/update-wise.sh
+          bash scripts/update-wise.sh
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet rules/Wise.yaml && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rules/Wise.yaml
+          git commit -m "chore: update Wise domain rules $(date -u '+%Y-%m-%d')"
+          git push
