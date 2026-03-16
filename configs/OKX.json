@@ -1,0 +1,20 @@
+{
+  "name": "OKX",
+  "seeds": [
+    "okx.com",
+    "okex.com",
+    "okcoin.com",
+    "oklink.com",
+    "okx.org"
+  ],
+  "orgs": [
+    "OKX",
+    "OKEx",
+    "OKCoin"
+  ],
+  "exclude": [
+    "cpanel", "autodiscover", "webmail", "webdisk",
+    "cpcalendars", "cpcontacts", "_dmarc", "_domainkey",
+    "plesk.page"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Bybit",
+  "seeds": [
+    "bybit.com",
+    "bybit-exp.com",
+    "bybitglobal.com",
+    "bycsi.com"
+  ],
+  "orgs": [
+    "Bybit"
+  ],
+  "exclude": [
+    "cpanel", "autodiscover", "webmail", "webdisk",
+    "cpcalendars", "cpcontacts", "_dmarc", "_domainkey",
+    "plesk.page"
+  ]
+}

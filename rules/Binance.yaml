@@ -1,0 +1,13 @@
+# Binance 完整域名规则集
+# 自动生成于: 2026-03-16 04:56 UTC
+# 数据源: Certificate Transparency (crt.sh)
+# 域名数量: 8
+payload:
+  - DOMAIN-SUFFIX,binance.charity
+  - DOMAIN-SUFFIX,binance.cloud
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,binance.org
+  - DOMAIN-SUFFIX,binance.us
+  - DOMAIN-SUFFIX,binancecnt.com
+  - DOMAIN-SUFFIX,bnbchain.org
+  - DOMAIN-SUFFIX,bnbstatic.com

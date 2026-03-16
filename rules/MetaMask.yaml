@@ -1,0 +1,10 @@
+# MetaMask 完整域名规则集
+# 自动生成于: 2026-03-16 05:00 UTC
+# 数据源: Certificate Transparency (crt.sh)
+# 域名数量: 5
+payload:
+  - DOMAIN-SUFFIX,consensys.io
+  - DOMAIN-SUFFIX,consensys.net
+  - DOMAIN-SUFFIX,infura.io
+  - DOMAIN-SUFFIX,linea.build
+  - DOMAIN-SUFFIX,metamask.io

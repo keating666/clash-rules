@@ -1,0 +1,21 @@
+{
+  "name": "Binance",
+  "seeds": [
+    "binance.com",
+    "binance.us",
+    "bnbstatic.com",
+    "binancecnt.com",
+    "binance.cloud",
+    "binance.org",
+    "binance.charity",
+    "bnbchain.org"
+  ],
+  "orgs": [
+    "Binance"
+  ],
+  "exclude": [
+    "cpanel", "autodiscover", "webmail", "webdisk",
+    "cpcalendars", "cpcontacts", "_dmarc", "_domainkey",
+    "plesk.page"
+  ]
+}

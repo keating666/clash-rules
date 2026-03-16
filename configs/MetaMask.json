@@ -1,0 +1,20 @@
+{
+  "name": "MetaMask",
+  "seeds": [
+    "metamask.io",
+    "infura.io",
+    "consensys.io",
+    "consensys.net",
+    "linea.build"
+  ],
+  "orgs": [
+    "ConsenSys",
+    "MetaMask",
+    "Infura"
+  ],
+  "exclude": [
+    "cpanel", "autodiscover", "webmail", "webdisk",
+    "cpcalendars", "cpcontacts", "_dmarc", "_domainkey",
+    "plesk.page"
+  ]
+}

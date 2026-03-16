@@ -1,0 +1,18 @@
+{
+  "name": "Wise",
+  "seeds": [
+    "wise.com",
+    "transferwise.com",
+    "wise.tech",
+    "transferwise.tech",
+    "wiseconnect.io"
+  ],
+  "orgs": [
+    "Wise Payments",
+    "TransferWise"
+  ],
+  "exclude": [
+    "wise.jobs", "cpanel", "autodiscover", "webmail", "webdisk",
+    "cpcalendars", "cpcontacts", "_dmarc", "_domainkey", "plesk.page"
+  ]
+}
