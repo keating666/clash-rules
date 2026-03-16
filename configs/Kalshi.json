@@ -1,0 +1,15 @@
+{
+  "name": "Kalshi",
+  "seeds": [
+    "kalshi.com",
+    "kalshi.co"
+  ],
+  "orgs": [
+    "Kalshi"
+  ],
+  "exclude": [
+    "cpanel", "autodiscover", "webmail", "webdisk",
+    "cpcalendars", "cpcontacts", "_dmarc", "_domainkey",
+    "plesk.page"
+  ]
+}

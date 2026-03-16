@@ -34,6 +34,12 @@ jobs:
       - name: Update MetaMask
         run: bash scripts/update-exchange.sh configs/MetaMask.json
 
+      - name: Update Polymarket
+        run: bash scripts/update-exchange.sh configs/Polymarket.json
+
+      - name: Update Kalshi
+        run: bash scripts/update-exchange.sh configs/Kalshi.json
+
       - name: Check for changes
         id: diff
         run: |

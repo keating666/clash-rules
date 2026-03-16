@@ -1,0 +1,15 @@
+{
+  "name": "Polymarket",
+  "seeds": [
+    "polymarket.com",
+    "poly.market"
+  ],
+  "orgs": [
+    "Polymarket"
+  ],
+  "exclude": [
+    "cpanel", "autodiscover", "webmail", "webdisk",
+    "cpcalendars", "cpcontacts", "_dmarc", "_domainkey",
+    "plesk.page"
+  ]
+}
