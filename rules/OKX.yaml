@@ -1,8 +1,9 @@
 # OKX 完整域名规则集
-# 自动生成于: 2026-08-20 06:41 UTC
+# 自动生成于: 2026-08-21 06:40 UTC
 # 数据源: Certificate Transparency (crt.sh)
-# 域名数量: 3
+# 域名数量: 4
 payload:
   - DOMAIN-SUFFIX,okcoin.com
   - DOMAIN-SUFFIX,oklink.com
   - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,okx.org
