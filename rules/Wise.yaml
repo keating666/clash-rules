@@ -1,7 +1,7 @@
 # Wise 完整域名规则集
-# 自动生成于: 2026-10-22 11:03 UTC
+# 自动生成于: 2026-10-23 10:54 UTC
 # 数据源: Certificate Transparency (crt.sh)
-# 域名数量: 13
+# 域名数量: 12
 payload:
   - DOMAIN-SUFFIX,dev-wi.se
   - DOMAIN-SUFFIX,explore--wise.com
@@ -10,7 +10,6 @@ payload:
   - DOMAIN-SUFFIX,transferwise.tech
   - DOMAIN-SUFFIX,trwi.se
   - DOMAIN-SUFFIX,tw-brazil-sykes.com
-  - DOMAIN-SUFFIX,tw-india.com
   - DOMAIN-SUFFIX,tw.ee
   - DOMAIN-SUFFIX,wise-sandbox.com
   - DOMAIN-SUFFIX,wise.com
